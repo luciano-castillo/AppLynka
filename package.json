@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@expo-google-fonts/roboto": "^0.3.0",
+    "expo": "^52.0.46",
+    "expo-font": "~13.0.4",
+    "react-native-size-matters": "^0.4.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "@types/react": "~18.3.12"
+  }
+}
