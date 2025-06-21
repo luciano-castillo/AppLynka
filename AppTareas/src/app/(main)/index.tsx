@@ -1,11 +1,18 @@
-import { View, Text } from 'react-native'
 import React from 'react'
+import { Button, SafeAreaView, Text } from 'react-native'
 
 const Main = () => {
   return (
-    <View>
-      <Text>Ingresamos a la Aplicacion</Text>
-    </View>
+    <SafeAreaView 
+      style={{
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: '#fff'
+    }}>
+      <Text onPress={ () => console.log("Texto presionado")}>Ingresamos a la Aplicacion</Text>
+      <Button title="test" onPress={() => console.log("Boton presionado")}/>
+    </SafeAreaView>
   )
 }
 

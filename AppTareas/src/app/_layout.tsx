@@ -1,6 +1,5 @@
-import { View, Text } from 'react-native'
-import React, { useState } from 'react'
-import { Redirect, Stack } from 'expo-router'
+import { Redirect, Stack } from 'expo-router';
+import React, { useState } from 'react';
 
 const RootNavigation = () => {
 
@@ -10,7 +9,7 @@ const RootNavigation = () => {
     <>
     
     <Stack screenOptions={{headerShown:false}} > </Stack>
-    {isLogin? <Redirect href="/(main)"/> : <Redirect href="/(auth)"/>}
+    {isLogin? <Redirect href="/(main)"/> : <Redirect href="/(main)"/>}
     </>
     
   )

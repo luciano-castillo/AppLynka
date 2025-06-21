@@ -1,9 +1,8 @@
-import { View, Text, StyleSheet,Image, ActivityIndicator} from 'react-native'
-import React, { useEffect, useState } from 'react'
-import { SafeAreaView } from 'react-native-safe-area-context'
 import imagePath from '@/src/constants/imagePath'
-import {moderateScale, moderateVerticalScale} from 'react-native-size-matters'
-import { Colors } from 'react-native/Libraries/NewAppScreen'
+import React, { useEffect, useState } from 'react'
+import { ActivityIndicator, Image, StyleSheet, Text, View } from 'react-native'
+import { SafeAreaView } from 'react-native-safe-area-context'
+import { moderateScale, moderateVerticalScale } from 'react-native-size-matters'
 
 const Auth = () => {
   const [isLoading,setloading] = useState(false)
